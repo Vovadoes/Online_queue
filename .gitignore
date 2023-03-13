@@ -1,0 +1,6 @@
+/venv/
+/OQWeb/db.sqlite3
+/OQWeb/OQWeb/static/admin/
+/OQWeb/OQWeb/static/grappelli/
+/OQWeb/OQWeb/apps/account/migrations/
+/OQWeb/OQWeb/apps/myqueue/migrations/
