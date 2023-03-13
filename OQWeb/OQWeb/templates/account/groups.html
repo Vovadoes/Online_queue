@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Создать учетную запись{% endblock %}
+
+{% block settings %}
+{% load static %}
+{% endblock %}
+
+{% block content %}
+<p>groups</p>
+<p>user</p>
+<ul>
+    {% for elem in groups_users %}
+        <li>{{elem}}</li>
+    {% endfor %}
+</ul>
+<p>admin</p>
+<ul>
+    {% for elem in groups_admins %}
+        <li>{{elem}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
